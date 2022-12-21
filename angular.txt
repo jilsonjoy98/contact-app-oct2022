@@ -1,0 +1,47 @@
+
+
+
+                  Angular - front End Development Framework
+
+
+                            Basic  Commands
+
+                1.Create project- ng new project-name
+                2. Run project-   ng serve
+                3.Generating Components: ng g c component-name
+                4.Angular services - ng g s service-folder/service-name
+                5Angular pipe -ng g p pipe-folder/pipe-name
+
+
+                            Basic Bilding Blocks
+
+                1. Module - used to import 3rd party libaries
+                2. Components- to create HTML page (html,css,ts)
+                3. Selector- it will replace html page for that Component
+                4.Angular services - Reusable codes tthat can  share between componanets
+                5.Asynchronus function -RxJs
+                6.Observable -
+                        subscribe(call back)
+                7. to get http methods
+                8. Dependency Injection - perform inside constructor
+                        syntax:acess specifier variable-name:class-name:
+                9. Data Binding - data sharing inside a Components
+                       - one way Binding
+                          -  component(ts) to view(html)
+                                -string Interpolation -{{variable-name}}
+                                -property Binding -[attribute]="property-name"
+                          -  view(html) to component(ts)
+                                - event binding - (even-name)="function-name()"
+                                - event binding using $event argument -(event-name)="function-name($event)"
+                        -Two way binding
+                                -usin ngModel:
+                                        -Import FormsModule in appModule
+                                        -[(ngModel)]="property-name"
+                10. Directives -DOM Manipulation
+                        -Component Directives
+                        -Structural Directives -to add/remove html elements based on a
+                                        condotion or length of an array
+                                - *ngIf="condotion"
+                                - *ngFor="let variable-name of array-name"
+                11. pipe -transform user input to another format
+

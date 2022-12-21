@@ -1,0 +1,38 @@
+
+
+                Contact Management App - API 
+
+            1.createa Angular project 
+            2. Instal Bootstrap and Font-awsome   
+            3. paste sdn link of font-awsome in index.html
+            4. configure Bootstrap and font awsome in angular.json
+            5.configure google font in style.css / index.html
+            6. Check all works fine
+            7. Create components need to display in webpage
+                -contactManager -view all contacts
+                - addContact - add a new contact
+                -updateContact -to edit the existing contact
+                -viewContact - to view a particular contact
+                -pageNotFound -to display page not found
+                -navbar - place its selector inside root component html page
+            8. set up path for each component in order to view it in browser
+                -set up path for each component in app-routing.module.test , routes array
+                -in app.component.html add router-outlet selector for displaying different web page as per user request
+
+            9. set up the server api-
+                - create server folder inside the project
+                - create create db.json file
+                -open cmd server folder
+                -create package.jason file -comand: npm init
+                -install json-server inside server folder
+                -update package.json file, script as
+                "start": "json-server --watch db.json --port 3000"
+                - to run server use command: npm start
+            10. create model for contact and group
+                 -create model folder in src folder
+                 -create myContact.ts file
+                 -create myGroup.ts file
+           11. Create an angular service for making api call
+           12. to get http methods - get,post,put,patch,delete
+                -Import HttpClientModule in app.module.ts
+                -DEpendency Inject HttClient in api service ts file
