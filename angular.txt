@@ -31,7 +31,7 @@
                                 -string Interpolation -{{variable-name}}
                                 -property Binding -[attribute]="property-name"
                           -  view(html) to component(ts)
-                                - event binding - (even-name)="function-name()"
+                                - event binding - (event-name)="function-name()"
                                 - event binding using $event argument -(event-name)="function-name($event)"
                         -Two way binding
                                 -usin ngModel:

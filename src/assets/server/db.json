@@ -79,22 +79,52 @@
       "company": "Abernathy Group",
       "title": "Developer",
       "groupId": "4"
-    }
-  ],
-  "groups":[
-    {
-        "id":"1",
-        "name":"Friends"
     },
     {
-        "id":"2",
-        "name":"Family"
-    },{
-        "id":"3",
-        "name":"Collegues"
-    },{
-        "id":"4",
-        "name":"Social"
+      "id": "ca9",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg",
+      "email": "messi22@gmail.com",
+      "mobile": "7025473022",
+      "company": "arsnal Ltc",
+      "title": "Tester",
+      "groupId": "4"
+    },
+    {
+      "id": "ca10",
+      "photo": "https://i.pinimg.com/originals/cd/71/1f/cd711fca60134229d08e3f8e6604674b.jpg",
+      "email": "tonystark98@gmail.com",
+      "mobile": "7025473021",
+      "company": "Stark Tech",
+      "title": "developer",
+      "groupId": "1"
+    },
+    {
+      "id": "ca12",
+      "name": "ronaldo",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0L9Rz_UUvyqJGzbWvJB6zGzgnUxvDiacBPQ&usqp=CAU",
+      "email": "ronaldo7@gmail.com",
+      "mobile": "7025473020",
+      "company": "dfggd",
+      "title": "tester",
+      "groupId": "3"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Friends"
+    },
+    {
+      "id": "2",
+      "name": "Family"
+    },
+    {
+      "id": "3",
+      "name": "Collegues"
+    },
+    {
+      "id": "4",
+      "name": "Social"
     }
   ]
 }

@@ -35,7 +35,7 @@
                                <div class="row align-items-center">
                                     <div class="col-md-3">
                                         <!-- contact image -->
-                                        <img height="160px" [src]="contact.photo" class="contact_image">
+                                        <img style="border-radius: 10px;" height="160px" [src]="contact.photo" class="contact_image">
                                     </div>
                                     <div class="col-md-8">
                                         <!-- contact details -->
@@ -55,7 +55,7 @@
                                             <i class="fa-solid fa-pen"></i>
                                         </a>
                                         <!-- delete -->
-                                        <button  class="btn btn-danger mt-1">
+                                        <button (click)="deleteContact(contact.id)" class="btn btn-danger mt-1">
                                             <i class="fa-solid fa-trash"></i>
                                         </button>
                                     </div>
