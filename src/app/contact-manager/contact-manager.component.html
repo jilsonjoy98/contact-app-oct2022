@@ -44,14 +44,14 @@
                                             <li class="list-group-item">Email : <b>{{contact.email}}</b></li>
                                             <li class="list-group-item">Mobile : <b>{{contact.mobile}}</b></li>
                                           </ul>
-                                    </div>
+                                    </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
                                     <div class="col-md-1 d-flex flex-column justify-content-center align-items-center">
                                         <!-- view -->
                                         <a routerLink="/contacts/view/{{contact.id}}" class="btn btn-warning">
                                             <i class="fa-solid fa-eye"></i>
                                         </a>
                                         <!-- edit -->
-                                        <a routerLink="/contacts/update/:contactId" class="btn btn-success mt-1">
+                                        <a routerLink="/contacts/update/{{contact.id}}" class="btn btn-success mt-1">
                                             <i class="fa-solid fa-pen"></i>
                                         </a>
                                         <!-- delete -->
